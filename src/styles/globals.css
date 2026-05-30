@@ -1,20 +1,20 @@
 :root 
 {
-  --bg: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
-  --accent: #3b82f6;
-  --card: #ffffff;
+  --bg: hsl(0, 0%, 100%);
+  --text: hsl(221, 39%, 11%);
+  --muted: hsl(220, 9%, 46%);
+  --accent: hsl(217, 91%, 60%);
+  --card: hsl(0, 0%, 100%);
   --radius: 8px;
 }
 
 html.dark 
 {
-  --bg: #0f172a;
-  --text: #f9fafb;
-  --muted: #9ca3af;
-  --accent: #60a5fa;
-  --card: #0b1220;
+  --bg: hsl(222, 47%, 11%);
+  --text: hsl(210, 20%, 98%);
+  --muted: hsl(218, 11%, 65%);
+  --accent: hsl(213, 94%, 68%);
+  --card: hsl(220, 49%, 8%);
 }
 
 html,
@@ -32,4 +32,9 @@ body
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.no-flip 
+{
+  transform: none !important;
 }
