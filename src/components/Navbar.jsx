@@ -1,18 +1,27 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import '../styles/navbar.css'
+import logo from '../assets/react.svg'
+import theme from '../assets/theme.png'
 
 export const Navbar = () => {
     return (
         <>
             <nav className="nav-bar">
                 <div className="left-side">
+                    <img src={logo} alt="Logo" className="logo" />
                     <h1>Roosc Zaño</h1>
                 </div>
 
                 <div className="right-side">
+
+                    <button className="theme-toggle" aria-label="Toggle Theme" onClick={() => {
+                        document.documentElement.classList.toggle('dark');
+                    }}>
+                        <img src={theme} alt="Theme" className="theme-icon" />
+                    </button>
                     <Menu as="div" className="relative inline-block">
-                        <MenuButton className="inline-flex w-auto justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-50">
+                        <MenuButton className="options inline-flex w-auto justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-50">
                             Options
                             <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400" />
                         </MenuButton>   
