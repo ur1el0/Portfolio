@@ -36,12 +36,12 @@ export const Navbar = () => {
         <nav className="flex items-center justify-between px-5 py-3 bg-gray-200 dark:bg-slate-900 text-gray-900 dark:text-white">
             <div className="flex items-center gap-3">
                 <img src={logo} alt="Logo" className="w-6 h-6" />
-                <h1 className="text-lg font-semibold">Roosc Zaño</h1>
+                <h1 className="text-lg font-semibold p-2    ">Roosc Zaño</h1>
             </div>
 
             <div className="flex items-center gap-3">
                 <button
-                    className="inline-flex items-center justify-center p-2 rounded-md border border-gray-200 dark:border-white/10 bg-transparent focus:outline-none"
+                    className="inline-flex items-center justify-center p-2 rounded-md border border-gray-200 dark:border-white/10 bg-gray-200 dark:bg-slate-700 focus:outline-white"
                     aria-label="Toggle theme"
                     aria-pressed={themeMode === 'dark'}
                     onClick={toggleTheme}
@@ -51,7 +51,7 @@ export const Navbar = () => {
                 </button>
 
                 <Menu as="div" className="relative inline-block">
-                    <MenuButton className="inline-flex items-center rounded-md px-3 py-2 text-sm font-semibold bg-white text-slate-900 hover:bg-slate-50 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700">
+                    <MenuButton className="inline-flex items-center rounded-md px-3 py-2 text-sm font-semibold bg-white text-slate-900 hover:bg-slate-50 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-700">
                         <ChevronDownIcon aria-hidden="true" className="-mr-1 h-5 w-5 text-gray-400 dark:text-gray-300" />
                     </MenuButton>
 
