@@ -1,12 +1,2 @@
-body 
-{
-	background: white;
-	color: black;
-	transition: background-color 0.2s ease, color 0.2s ease;
-}
+@import './styles/globals.css';
 
-html.dark body 
-{
-	background: #0f172a;
-	color: white;
-}
