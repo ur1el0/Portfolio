@@ -3,7 +3,7 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import '../styles/navbar.css'
 import logo from '../assets/react.svg'
-import themeIcon from '../assets/theme.png'
+import themeIcon from '../assets/nav/theme.png'
 
 export const Navbar = () => {
     const getInitialTheme = () => {
