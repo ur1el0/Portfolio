@@ -38,3 +38,19 @@ body
 {
   transform: none !important;
 }
+
+.anchor-click 
+{
+  transition: transform 160ms cubic-bezier(.4,0,.2,1), opacity 120ms ease, color 160ms ease;
+  will-change: transform, opacity;
+}
+.anchor-click:active 
+{
+  transform: translateY(2px) scale(0.985);
+  opacity: 0.95;
+}
+.anchor-click:focus-visible 
+{
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

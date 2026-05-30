@@ -1,6 +1,8 @@
 import { EnvelopeIcon, ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import hero from '../../assets/hero/hero.png'
+import hero from '../assets/hero/hero.png'
+import SocialButton from '../components/ui/SocialButton'
+import ActionButton from '../components/ui/ActionButton'
 
 export const HeroSection = () => {
     return (
@@ -17,7 +19,7 @@ export const HeroSection = () => {
                     </h2>
 
                     <p className="text-lg text-gray-600 dark:text-gray-500">
-                        an aspiring full-stack web & mobile developer
+                        a full-stack web & mobile developer
                     </p>
 
                     <h3 className="text-sm text-gray-600 dark:text-gray-400 mt-1">
@@ -28,34 +30,32 @@ export const HeroSection = () => {
             </div>
 
             <div className="flex items-center justify-center gap-4 mt-4 flex-wrap">
-                <a href="https://github.com/ur1el0" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-500 hover:underline">
+                <SocialButton href="https://github.com/ur1el0" label="GitHub">
                     <FaGithub className="w-5 h-5" aria-hidden="true" />
-                    <span className="sr-only">GitHub</span>
                     github.com/ur1el0
-                </a>
+                </SocialButton>
 
-                <a href="https://www.linkedin.com/in/roosc-za%C3%B1o-08568a357/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-500 hover:underline">
+                <SocialButton href="https://www.linkedin.com/in/roosc-za%C3%B1o-08568a357/?skipRedirect=true" label="LinkedIn">
                     <FaLinkedin className="w-5 h-5" aria-hidden="true" />
-                    <span className="sr-only">LinkedIn</span>
                     linkedin.com/in/roosc-zaño
-                </a>
+                </SocialButton>
 
-                <a href="mailto:zanoroosc@gmail.com" className="flex items-center gap-2 text-blue-500 hover:underline">
+                <SocialButton href="mailto:zanoroosc@gmail.com" label="Email">
                     <EnvelopeIcon className="w-5 h-5" aria-hidden="true" />
-                    <span className="sr-only">Email</span>
                     zanoroosc@gmail.com
-                </a>
+                </SocialButton>
             </div>
 
-            <button className="mt-6 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700 mx-auto w-max flex items-center gap-2 clickable" 
-                onClick={() => window.open('/Roosc_Zaño_CV.pdf', '_blank')}>
-                <ArrowDownTrayIcon className="w-5 h-5" />
-                Download CV
-            </button>
-            <button className="mt-4 px-3 py-1.5 bg-gray-800 text-white rounded-md hover:bg-gray-700 mx-auto w-max flex items-center gap-2"
-                onClick={() => document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}>
-                View Projects
-            </button>
+            <div className="flex flex-col md:flex-row items-center gap-4 mt-6">
+                <ActionButton onClick={() => window.open('/Roosc_Zaño_CV.pdf', '_blank')}>
+                    <ArrowDownTrayIcon className="w-5 h-5" />
+                    Download CV
+                </ActionButton>
+
+                <ActionButton onClick={() => document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}>
+                    View Projects
+                </ActionButton>
+            </div>
         </section>
     )
 }

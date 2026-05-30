@@ -41,10 +41,10 @@ export const Navbar = () => {
             <div className="flex items-center gap-3">
 
                 <div className="hidden md:flex items-center gap-4">
-                    <a href="#about" className="text-sm hover:underline">About</a>
-                    <a href="#projects" className="text-sm hover:underline">Projects</a>
-                    <a href="#achievements" className="text-sm hover:underline">Achievements</a>
-                    <a href="#certifications" className="text-sm hover:underline">Certifications</a>
+                    <a href="#about" className="text-sm hover:underline ">About</a>
+                    <a href="#projects" className="text-sm hover:underline transition-colors">Projects</a>
+                    <a href="#achievements" className="text-sm hover:underline transition-colors">Achievements</a>
+                    <a href="#certifications" className="text-sm hover:underline transition-colors">Certifications</a>
                 </div>
                 <button
                     className="inline-flex items-center justify-center p-2 rounded-md border border-gray-200 dark:border-white/10 bg-gray-200 dark:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
