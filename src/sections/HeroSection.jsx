@@ -1,5 +1,5 @@
 import { EnvelopeIcon, ArrowDownTrayIcon } from '@heroicons/react/20/solid'
-import { FaGithub, FaLinkedin, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaRegEye } from 'react-icons/fa'
 import hero from '../assets/hero/hero.png'
 import SocialButton from '../components/ui/SocialButton'
 import ActionButton from '../components/ui/ActionButton'
@@ -10,24 +10,24 @@ export const HeroSection = () => {
             <div className="flex items-center justify-center gap-8 flex-wrap mb-6">
 
                 <div className="flex flex-col gap-3">
-                    <h1 className="text-3xl sm:text-4xl font-semibold sm:text-left dark:text-white-500 ">
+                    <h1 className="text-3xl sm:text-4xl font-semibold sm:text-left text-[var(--text)]">
                         Hi there! 
                     </h1>
                         
-                    <h2 className="text-6xl sm:text-7xl font-semibold dark:text-white-500 leading-tight">
+                    <h2 className="text-6xl sm:text-7xl font-semibold leading-tight text-[var(--text)]">
                         I'm Roosc Zaño
                     </h2>
 
-                    <p className="text-xl text-gray-600 dark:text-gray-500">
+                    <p className="text-xl text-[var(--muted)]">
                         a full-stack web & mobile developer
                     </p>
 
-                    <h3 className="text-base text-gray-600 dark:text-gray-400 mt-1">
+                    <h3 className="mt-1 text-base text-[var(--muted)]">
                         <FaMapMarkerAlt className="w-5 h-5 inline-block mr-1 mb-1" />
                         Lucena, Philippines
                     </h3>
                 </div>
-                <img src={hero} alt="Hero Image" className="w-56 h-56 sm:w-64 sm:h-64 rounded-full border-4 border-gray-200 dark:border-gray-700 no-flip shrink-0 shadow-2xl ml-15" />
+                <img src={hero} alt="Hero Image" className="w-56 h-56 sm:w-64 sm:h-64 rounded-full border-4 border-[var(--border)] no-flip shrink-0 shadow-2xl ml-15" />
             </div>
 
             <div className="flex items-center justify-center gap-5 mt-6 flex-wrap">
@@ -39,13 +39,14 @@ export const HeroSection = () => {
                     <FaLinkedin className="w-6 h-6" aria-hidden="true" />
                 </SocialButton>
 
+                <SocialButton href="https://www.instagram.com/fuschiapenk/" label="Instagram">
+                    <FaInstagram className="w-6 h-6" aria-hidden="true" />
+                </SocialButton>
+                
                 <SocialButton href="mailto:zanoroosc@gmail.com" label="Email">
                     <EnvelopeIcon className="w-6 h-6" aria-hidden="true" />
                 </SocialButton>
 
-                <SocialButton href="https://www.instagram.com/fuschiapenk/" label="Instagram">
-                    <FaInstagram className="w-6 h-6" aria-hidden="true" />
-                </SocialButton>
 
             </div>
 
@@ -56,6 +57,7 @@ export const HeroSection = () => {
                 </ActionButton>
 
                 <ActionButton onClick={() => document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}>
+                    <FaRegEye className="w-6 h-6" />
                     View Projects
                 </ActionButton>
             </div>

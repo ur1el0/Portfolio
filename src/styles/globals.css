@@ -5,8 +5,11 @@
   --muted: hsl(220, 9%, 46%);
   --accent: hsl(217, 91%, 60%);
   --card: hsl(0, 0%, 100%);
+  --border: hsl(214, 32%, 91%);
   --radius: 8px;
 }
+
+@import "tailwindcss";
 
 html.dark 
 {
@@ -15,6 +18,16 @@ html.dark
   --muted: hsl(218, 11%, 65%);
   --accent: hsl(213, 94%, 68%);
   --card: hsl(220, 49%, 8%);
+  --border: hsl(217, 19%, 27%);
+}
+html.light 
+{
+  --bg: hsl(0, 0%, 100%);
+  --text: hsl(221, 39%, 11%);
+  --muted: hsl(220, 9%, 46%);
+  --accent: hsl(217, 91%, 60%);
+  --card: hsl(0, 0%, 100%);
+  --border: hsl(214, 32%, 91%);
 }
 
 html,

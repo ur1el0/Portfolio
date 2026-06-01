@@ -1,5 +1,5 @@
 export const ActionButton = ({ onClick, href, children }) => {
-    const base = 'anchor-click mt-4 px-5 py-3 text-base bg-gray-800 text-white rounded-xl hover:bg-gray-700 mx-auto w-max flex items-center gap-3 shadow-md transition-colors'
+    const base = 'anchor-click mt-4 mx-auto flex w-max items-center gap-3 rounded-xl bg-[var(--text)] px-5 py-3 text-base text-[var(--bg)] shadow-md transition-colors hover:opacity-90'
 
     if (href) {
         return (

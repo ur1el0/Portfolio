@@ -11,7 +11,7 @@ export const ProjectSection = () =>
         },
         {
             title: 'Paldo',
-            description: 'Paldo is a full-stack scholarship application system that connects students and local government scholarship providers. This README covers the repo layout, local and Docker startup, and links to the walkthrough docs.',
+            description: 'Paldo is a full-stack scholarship application system that connects students and local government scholarship providers.',
             githubHref: 'https://github.com/pak-pow/OpenIT_Capstone.git',
             onViewImage: () => window.open('https://raw.githubusercontent.com/ur1el0/Portfolio/refs/heads/main/src/assets/projects/paldo.png', '_blank'),
         },
@@ -23,8 +23,8 @@ export const ProjectSection = () =>
     ]
 
     return (
-        <section className="mt-50 pb-20 px-4 max-w-6xl mx-auto" id="projects">
-            <h2 className="text-4xl font-bold mb-10 dark:text-white-500 light:text-slate-900 text-center">Featured Projects</h2>
+        <section className="mt-30 pb-20 px-4 max-w-6xl mx-auto" id="projects">
+            <h2 className="mb-10 text-center text-4xl font-bold text-[var(--text)]">Featured Projects</h2>
             <div className="grid gap-10 md:grid-cols-2">
                 {projects.map((project) => (
                     <ProjectCard
