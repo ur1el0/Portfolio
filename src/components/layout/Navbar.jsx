@@ -46,15 +46,15 @@ export const Navbar = () => {
     const toggleTheme = () => setThemeMode((currentTheme) => (currentTheme === 'dark' ? 'light' : 'dark'))
 
     return (
-        <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between border-b px-4 py-1 transition-colors ${navbarSurfaceClass}`}>
-            <div className="flex items-center gap-3">   
-                <UserIcon className="w-6 h-6" />
-                <h1 className="text-lg font-semibold p-2">Roosc Zaño</h1>
+        <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between border-b px-4 py-1 transition-colors ${navbarSurfaceClass} py-5 px-10 `}>
+            <div className="flex items-center gap-5">   
+                <UserIcon className="pl-4 w-12 h-12" />
+                <h1 className="text-2xl font-semibold p-2">ROOSC ZAÑO</h1>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-5 pr-4">
 
-                <div className="hidden md:flex items-center font-semibold gap-4">
+                <div className="hidden md:flex items-center font-semibold gap-6">
                     <a href="#about" className="anchor-click text-sm text-current hover:text-[var(--accent)]">About</a>
                     <a href="#projects" className="anchor-click text-sm text-current hover:text-[var(--accent)]">Projects</a>
                     <a href="#participations" className="anchor-click text-sm text-current hover:text-[var(--accent)]">Participations</a>
@@ -68,7 +68,7 @@ export const Navbar = () => {
                     title={themeMode === 'dark' ? 'Switch to light' : 'Switch to dark'}
                 >
                     {themeMode === 'dark' ? (
-                        <SunIcon className="w-5 h-5 text-[var(--accent)] transition-transform" />
+                        <SunIcon className="w-5 h-5 text-[var(--yellow)] transition-transform" />
                     ) : (
                         <MoonIcon className="w-5 h-5 text-[var(--accent)] transition-transform" />
                     )}
