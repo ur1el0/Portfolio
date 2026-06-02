@@ -10,7 +10,7 @@ export const ParticipationSection = () => {
     const closePreview = () => setPreview(null)
 
     return (
-        <section className="p-16 bg-[var(--bg)] text-[var(--text)] text-center">
+        <section className="p-16 bg-[var(--bg)] text-[var(--text)] text-center" id="participations">
             <div className="mx-auto w-full max-w-6xl px-4 border-t border-[var(--border)] pt-10">
                 <div className="mx-auto w-full max-w-6xl px-4">
 
