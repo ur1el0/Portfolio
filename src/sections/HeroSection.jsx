@@ -21,7 +21,7 @@ export const HeroSection = () => {
                     </h2>
 
                     <p className="inline-flex w-fit px-4 py-2 text-xl font-medium shadow-lg border border-[var(--border)] rounded-2xl mb-4" style={{ fontFamily: '"Noto Sans Phags Pa", sans-serif' }}>
-                        Full-stack Web & Mobile Developer
+                        An aspiring full-stack web & mobile developer
                     </p>    
 
                     <h3 className="mt-1 text-base text-[var(--muted)]" style={{ fontFamily: '"Noto Sans Phags Pa", sans-serif' }}>

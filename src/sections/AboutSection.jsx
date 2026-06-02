@@ -1,4 +1,4 @@
-import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt } from 'react-icons/si'
+import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt, SiDart, SiFlutter } from 'react-icons/si'
 import { TbBrandCpp } from "react-icons/tb";
 import { FaC, FaJava, FaBootstrap } from "react-icons/fa6";
 
@@ -15,6 +15,7 @@ export const AboutSection = () => {
         { name: 'Tailwind CSS', icon: SiTailwindcss, accent: 'text-sky-400', ring: 'ring-sky-400/20' },
         { name: 'React', icon: SiReact, accent: 'text-cyan-400', ring: 'ring-cyan-400/20' },
     ]
+
     const Background = [
         { name: 'C++', icon: TbBrandCpp, accent: 'text-blue-500', ring: 'ring-blue-500/20' },
         { name: 'C', icon: FaC, accent: 'text-blue-500', ring: 'ring-blue-500/20' },
@@ -22,9 +23,10 @@ export const AboutSection = () => {
         { name: 'Bootstrap', icon: FaBootstrap, accent: 'text-purple-600', ring: 'ring-purple-600/20' },
         { name: 'MongoDB', icon: SiMongodb, accent: 'text-green-600', ring: 'ring-green-600/20' },
         { name: 'QT', icon: SiQt, accent: 'text-green-600', ring: 'ring-green-600/20' },
-
-        
+        { name: 'Dart', icon: SiDart, accent: 'text-blue-400', ring: 'ring-blue-400/20' },
+        { name: 'Flutter', icon: SiFlutter, accent: 'text-blue-400', ring: 'ring-blue-400/20' },
     ]
+
     const Tools = [
         { name: 'Git', icon: SiGit, accent: 'text-orange-500', ring: 'ring-orange-500/20' },
         { name: 'PostgreSQL', icon: SiPostgresql, accent: 'text-blue-700', ring: 'ring-blue-700/20' },
@@ -55,7 +57,7 @@ export const AboutSection = () => {
             <div className="flex flex-col gap-8 items-center">
                 <div className="text-left max-w-3xl mx-auto text-lg text-[var(--muted)]">
                     <p className="mt-4 mb-6 text-xl font-semibold leading-relaxed text-[var(--text)]">
-                        I'm Roosc Zaño, a full-stack web and mobile developer with a passion for creating intuitive and efficient applications.    
+                        I'm Roosc Zaño, a 3rd year BSIT student that aspires to be a full-stack web and mobile developer with a passion for creating intuitive and efficient applications.    
                     </p>
                     <p className="mt-8 mb-4 text-xl font-semibold leading-relaxed text-[var(--text)]">
                         With a background in Information Technology that specializes in web and mobile development, I have experience in various programming languages and frameworks, including Node.js, ASP.NET Core, React, and Django. I am now learning mobile development using Kotlin and will use Swift in the next following months.  

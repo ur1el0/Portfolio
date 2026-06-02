@@ -17,7 +17,7 @@ export const ParticipationSection = () =>
                 <div className="space-y-10">
                     <div>
                         <p className="text-lg font-bold uppercase tracking-[0.25em] text-[var(--muted)]">
-                            Participations/Achievements
+                            Participations
                         </p>
                         <h3 className="mt-2 text-2xl font-semibold text-[var(--text)] ">
                             Hackathons, Competitions, and Other Notable Participations
@@ -42,8 +42,8 @@ export const ParticipationSection = () =>
                         <p className="mt-2 text-[var(--muted)]">
                             Team Leader for a project focused on SDG 11 (Sustainable Cities and Communities). We developed a mobile application for safety walking routes targeting walking commuters.
                         </p>
-                        <span className="mt-4 inline-flex text-sm font-semibold text-[var(--accent)]">
-                            View Attachment
+                        <span className="mt-4 inline-flex text-sm font-semibold text-[var(--muted)]">
+                            Click to view attachment
                         </span>
                     </button>
 
@@ -63,8 +63,8 @@ export const ParticipationSection = () =>
                         <p className="mt-2 text-[var(--muted)]">
                             Team Participant for an ai-powered village management system project.
                         </p>
-                        <span className="mt-4 inline-flex text-sm font-semibold text-[var(--accent)]">
-                            View Attachment
+                        <span className="mt-4 inline-flex text-sm font-semibold text-[var(--muted)]">
+                            Click to view attachment
                         </span>
                     </button>
                 </div>

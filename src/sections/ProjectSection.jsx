@@ -1,4 +1,6 @@
 import ProjectCard from '../components/ui/ProjectCard'
+import paldo from '../assets/projects/paldo.png'
+import lockad from '../assets/projects/lockad.png'
 
 export const ProjectSection = () =>
 {
@@ -7,13 +9,13 @@ export const ProjectSection = () =>
             title: 'Lock-Ad-v2',
             description: 'A modern, user-friendly navigation web application designed to help users find the fastest or safest routes based on their preferences. Lock-Ad provides an intuitive interface for route planning with support for real-time route calculation and multiple routing algorithms.',
             githubHref: 'https://github.com/ur1el0/Lock-Ad-v2.git',
-            onViewImage: () => window.open('https://raw.githubusercontent.com/ur1el0/Portfolio/refs/heads/main/src/assets/projects/lockad.png', '_blank'),
+            onViewImage: () => window.open(lockad, '_blank'),
         },
         {
             title: 'Paldo',
             description: 'Paldo is a full-stack scholarship application system that connects students and local government scholarship providers.',
             githubHref: 'https://github.com/pak-pow/OpenIT_Capstone.git',
-            onViewImage: () => window.open('https://raw.githubusercontent.com/ur1el0/Portfolio/refs/heads/main/src/assets/projects/paldo.png', '_blank'),
+            onViewImage: () => window.open(paldo, '_blank'),
         },
         {
             title: 'Slot-v1',
