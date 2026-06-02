@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { UserIcon, SunIcon, MoonIcon } from '@heroicons/react/20/solid'
+import { SunIcon, MoonIcon } from '@heroicons/react/20/solid'
+import { FaCodeFork } from "react-icons/fa6";
 
 export const Navbar = () => {
     const getInitialTheme = () => {
@@ -48,7 +49,7 @@ export const Navbar = () => {
     return (
         <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between border-b px-4 py-1 transition-colors ${navbarSurfaceClass} py-5 px-10 `}>
             <div className="flex items-center gap-5">   
-                <UserIcon className="pl-4 w-12 h-12" />
+                <FaCodeFork className="pl-4 w-10 h-10" />
                 <h1 className="text-2xl font-semibold p-2">ROOSC ZAÑO</h1>
             </div>
 
