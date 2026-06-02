@@ -6,8 +6,8 @@ import ActionButton from '../components/ui/ActionButton'
 
 export const HeroSection = () => {
     return (
-        <section className="max-w-6xl mx-auto px-4 pt-26 pb-8 min-h-[72vh] flex flex-col justify-center">
-            <div className="flex items-center justify-center gap-50 flex-wrap mb-4">
+        <section className="max-w-6xl mx-auto px-4 pt-20 min-h-[72vh] flex flex-col justify-center">
+            <div className="flex items-center justify-center gap-50 flex-wrap mb-2">
 
                 <div className="flex flex-col gap-4">
                     <h1 className="text-3xl sm:text-5xl font-bold sm:text-left text-[var(--text)]" style={{ fontFamily: '"Noto Sans Phags Pa", sans-serif' }}>
@@ -50,7 +50,7 @@ export const HeroSection = () => {
                 </SocialButton>
             </div>
 
-            <div className="flex items-center justify-center mt-8 flex-row flex-center">
+            <div className="flex items-center justify-center mt-4 flex-row flex-center">
                 <ActionButton onClick={() => window.open('/Roosc_Zaño_CV.pdf', '_blank')} >
                     <ArrowDownTrayIcon className="w-6 h-6" />
                     Download CV
