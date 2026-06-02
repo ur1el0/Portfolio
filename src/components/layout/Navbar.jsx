@@ -92,8 +92,8 @@ export const Navbar = () => {
                                 </a>
                             </MenuItem>
                             <MenuItem>
-                                <a href="#achievements" className={`anchor-click block px-4 py-2 text-sm ${menuItemHoverClass}`}>
-                                    Achievements
+                                <a href="#participations" className={`anchor-click block px-4 py-2 text-sm ${menuItemHoverClass}`}>
+                                    Participations
                                 </a>
                             </MenuItem>
                             <MenuItem>
