@@ -111,5 +111,5 @@ export const HeroSection = () => {
                 </ActionButton>
             </div>
         </section>
-    )
+    )   
 }
