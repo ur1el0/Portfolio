@@ -48,8 +48,8 @@ export const AboutSection = () => {
 
 
     return (
-        <section className="mt-30 py-16 px-4 max-w-6xl mx-auto" id="about">
-            <h2 className="mb-6 text-center text-3xl font-semibold text-[var(--text)]">
+        <section className="mt-30 py-16 px-4 max-w-6xl mx-auto border-t border-[var(--border)]" id="about">
+            <h2 className="mb-6 text-center text-3xl font-bold text-[var(--text)]">
                 About Me
             </h2>
             <div className="flex flex-col gap-8 items-center">

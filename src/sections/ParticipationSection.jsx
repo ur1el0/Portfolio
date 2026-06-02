@@ -12,7 +12,7 @@ export const ParticipationSection = () =>
     const closePreview = () => setPreview(null)
 
     return (
-        <section id="participation" className="p-16 bg-[var(--bg)] text-[var(--text)] border-t border-[var(--border)] text-center">
+        <section className="p-16 bg-[var(--bg)] text-[var(--text)] border-t border-[var(--border)] text-center" id="participations">
             <div className="container">
                 <div className="space-y-10">
                     <div>

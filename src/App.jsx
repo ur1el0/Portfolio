@@ -5,6 +5,7 @@ import { HeroSection } from "./sections/HeroSection";
 import { ProjectSection } from "./sections/ProjectSection";
 import { AboutSection } from "./sections/AboutSection";
 import { ParticipationSection } from "./sections/ParticipationSection";
+import { CertificationSection } from "./sections/CertificationSection";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <AboutSection />
             <ProjectSection />
             <ParticipationSection />
+            <CertificationSection />
         </div>
     );
 }

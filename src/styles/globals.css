@@ -6,6 +6,7 @@
   --accent: hsl(217, 91%, 60%);
   --card: hsl(0, 0%, 100%);
   --border: hsl(214, 32%, 91%);
+  --yellow: hsl(48, 100%, 67%);
   --radius: 8px;
 }
 
@@ -19,6 +20,7 @@ html.dark
   --accent: hsl(213, 94%, 68%);
   --card: hsl(220, 49%, 8%);
   --border: hsl(217, 19%, 27%);
+  --yellow: hsl(48, 100%, 67%);
 }
 html.light 
 {

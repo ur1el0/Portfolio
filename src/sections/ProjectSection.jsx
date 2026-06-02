@@ -23,7 +23,7 @@ export const ProjectSection = () =>
     ]
 
     return (
-        <section className="mt-30 pb-20 px-4 max-w-6xl mx-auto" id="projects">
+        <section className="mt-30 pb-20 px-4 max-w-6xl mx-auto border-t border-[var(--border)] pt-10" id="projects">
             <h2 className="mb-10 text-center text-4xl font-bold text-[var(--text)]">Featured Projects</h2>
             <div className="grid gap-10 md:grid-cols-2">
                 {projects.map((project) => (
