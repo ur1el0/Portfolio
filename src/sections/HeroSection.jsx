@@ -1,6 +1,6 @@
 import { EnvelopeIcon, ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import { FaGithub, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaRegEye } from 'react-icons/fa'
-import hero from '../assets/hero/hero.png'
+import hero from '../assets/hero/profile.jpg'
 import SocialButton from '../components/ui/SocialButton'
 import ActionButton from '../components/ui/ActionButton'
 
@@ -29,7 +29,7 @@ export const HeroSection = () => {
                         Lucena, Philippines
                     </h3>
                 </div>
-                <img src={hero} alt="Hero Image" className="w-70 h-70 sm:w-64 sm:h-64 rounded-xl border-4 border-[var(--border)] no-flip shrink-0 shadow-2xl ml-15" />
+                <img src={hero} alt="Hero Image" className="w-70 h-70 sm:w-70 sm:h-90 rounded-2xl scale-100 border-4 border-[var(--border)] no-flip shrink-0 shadow-2xl ml-15" />
             </div>
 
             <div className="flex items-center justify-center gap-5 mt-6 flex-wrap">
