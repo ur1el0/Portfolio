@@ -6,7 +6,7 @@ export const ProjectCard = ({ title, description, onViewImage, githubHref }) => 
         <article className="min-h-[240px] rounded-2xl border border-[var(--border)] bg-[var(--card)] p-8 text-[var(--text)] shadow-xl">
             <h3 className="text-2xl font-semibold mb-3">{title}</h3>
             <p className="mb-5 text-lg text-[var(--muted)]">{description}</p>
-            <div className="flex items-center gap-2 border-t pt-4 mt-4">
+            <div className="mt-4 flex flex-col gap-3 border-t pt-4 sm:flex-row sm:items-center sm:gap-2">
                 <ActionButton onClick={onViewImage}>
                     View Image
                 </ActionButton>
