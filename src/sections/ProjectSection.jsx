@@ -6,22 +6,17 @@ export const ProjectSection = () =>
 {
     const projects = [
         {
-            title: 'Lock-Ad-v2',
-            description: 'A modern, user-friendly navigation web application designed to help users find the fastest or safest routes based on their preferences. Lock-Ad provides an intuitive interface for route planning with support for real-time route calculation and multiple routing algorithms.',
-            githubHref: 'https://github.com/ur1el0/Lock-Ad-v2.git',
-            onViewImage: () => window.open(lockad, '_blank'),
-        },
-        {
             title: 'Paldo',
             description: 'Paldo is a full-stack scholarship application system that connects students and local government scholarship providers.',
             githubHref: 'https://github.com/pak-pow/OpenIT_Capstone.git',
             onViewImage: () => window.open(paldo, '_blank'),
         },
         {
-            title: 'Slot-v1',
-            description: 'SlotV1 is a Django appointment-booking platform with public service browsing, user accounts, appointment scheduling, and staff tools for managing services, schedules, and bookings.',
-            githubHref: 'https://github.com/ur1el0/Slot-v1.git',
-        }
+            title: 'Lock-Ad-v2',
+            description: 'A basic navigation web application for finding routes for commuters. It is not a real-time navigation app and is only intended for demonstration purposes and will be further developed in the near future.',
+            githubHref: 'https://github.com/ur1el0/Lock-Ad-v2.git',
+            onViewImage: () => window.open(lockad, '_blank'),
+        },
     ]
 
     return (
