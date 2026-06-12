@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import hackercupAttachment from '../assets/participation/hackercup.pdf'
 import inventiImage from '../assets/participation/inventi.jpg'
+import topPerformer from '../assets/participation/topPerformer.jpg'
 import ParticipationPreviewModal from '../components/ui/ParticipationPreviewModal'
 
 export const ParticipationSection = () => {
@@ -63,6 +64,29 @@ export const ParticipationSection = () => {
                     </h4>
                     <p className="mt-2 text-[var(--muted)]">
                         Team Participant for an AI-powered village management system project.
+                    </p>
+                    <span className="mt-4 inline-flex text-sm font-semibold text-[var(--muted)]">
+                        Click to view attachment
+                    </span>
+                </button>
+
+                <button
+                    type="button"
+                    onClick={() =>
+                        setPreview({
+                            title: 'Top Performer - OpeniT Applied Full-Stack Bootcamp (2026)',
+                            source: topPerformer,
+                            previewType: 'image',
+                        })
+                    }
+                    className="w-full rounded-2xl border border-[var(--border)] bg-[var(--card)] p-6 text-left shadow-lg transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:ring-offset-2 focus:ring-offset-[var(--bg)]"
+                    aria-label="Open OpeniT Applied Full-Stack Bootcamp image"
+                >
+                    <h4 className="text-xl font-semibold text-[var(--text)]">
+                        Top Performer - OpeniT Applied Full-Stack Bootcamp (2026)
+                    </h4>
+                    <p className="mt-2 text-[var(--muted)]">
+                        A Top Performer among the participants in the OpeniT Applied Full-Stack Bootcamp, a comprehensive training program covering but not limited to .NET, React, PostgreSQL, and Docker.
                     </p>
                     <span className="mt-4 inline-flex text-sm font-semibold text-[var(--muted)]">
                         Click to view attachment

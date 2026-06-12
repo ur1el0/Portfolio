@@ -57,7 +57,7 @@ export const AboutSection = () => {
             <div className="flex flex-col gap-8 items-center">
                 <div className="text-left max-w-3xl mx-auto text-lg text-[var(--muted)]">
                     <p className="mt-4 mb-6 text-xl font-semibold leading-relaxed text-[var(--text)]">
-                        I'm Roosc Zaño, a 3rd year BSIT student who aspires to be a full-stack web and mobile developer with a passion for creating intuitive and efficient applications.    
+                        I'm Roosc Zaño, a 3rd year BSIT student who aspires to be a full-stack web and mobile developer.
                     </p>
                     <p className="mt-8 mb-4 text-xl font-semibold leading-relaxed text-[var(--text)]">
                         With a background in Information Technology that specializes in web and mobile development, I have experience in various programming languages and frameworks, including Node.js, ASP.NET Core, React, and Django. I am now learning mobile development using Kotlin and will use Swift in the next following months.  
