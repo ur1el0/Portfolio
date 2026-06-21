@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaRegEye } from 'rea
 import hero from '../assets/hero/profile.jpg'
 import SocialButton from '../components/ui/SocialButton'
 import ActionButton from '../components/ui/ActionButton'
+import Roosc_Zaño_CV from '../assets/hero/Roosc_Zaño_CV.pdf'
 
 export const HeroSection = () => {
     return (
@@ -93,7 +94,7 @@ export const HeroSection = () => {
 
             <div className="flex items-center justify-center mt-4 flex-col sm:flex-row gap-4">
                 <ActionButton
-                    onClick={() => window.open('/Roosc_Zaño_CV.pdf', '_blank')}
+                    onClick={() => window.open(Roosc_Zaño_CV, '_blank')}
                 >
                     <ArrowDownTrayIcon className="w-6 h-6" />
                     Download CV
