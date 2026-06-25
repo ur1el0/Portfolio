@@ -1,6 +1,7 @@
 import ProjectCard from '../components/ui/ProjectCard'
 import paldo from '../assets/projects/paldo.png'
 import lockad from '../assets/projects/lockad.png'
+import nsync from '../assets/projects/nsync.png'
 
 export const ProjectSection = () =>
 {
@@ -16,6 +17,12 @@ export const ProjectSection = () =>
             description: 'A basic navigation web application for finding routes for commuters. It is not a real-time navigation app and is only intended for demonstration purposes and will be further developed in the near future.',
             githubHref: 'https://github.com/ur1el0/Lock-Ad-v2.git',
             onViewImage: () => window.open(lockad, '_blank'),
+        },
+        {
+            title: 'NSync',
+            description: 'A gamified personal knowledge and memory app built with a Django backend and Kotlin Android app. It helps users capture notes, create review cards, complete quiz-style sessions, and track mastery with XP, levels, streaks, and accuracy.',
+            githubHref: 'https://github.com/ur1el0/NSync.git',
+            onViewImage: () => window.open(nsync, '_blank'),
         },
     ]
 
