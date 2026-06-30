@@ -14,8 +14,9 @@ export const AboutSection = () => {
         { name: '.NET Core', icon: SiDotnet, accent: 'text-violet-500', ring: 'ring-violet-500/20' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, accent: 'text-sky-400', ring: 'ring-sky-400/20' },
         { name: 'React', icon: SiReact, accent: 'text-cyan-400', ring: 'ring-cyan-400/20' },
+        { name: 'Kotlin', icon: SiKotlin, accent: 'text-red-500', ring: 'ring-red-500/20' },
     ]
-
+    
     const Background = [
         { name: 'C++', icon: TbBrandCpp, accent: 'text-blue-500', ring: 'ring-blue-500/20' },
         { name: 'C', icon: FaC, accent: 'text-blue-500', ring: 'ring-blue-500/20' },
@@ -31,11 +32,10 @@ export const AboutSection = () => {
         { name: 'Git', icon: SiGit, accent: 'text-orange-500', ring: 'ring-orange-500/20' },
         { name: 'PostgreSQL', icon: SiPostgresql, accent: 'text-blue-700', ring: 'ring-blue-700/20' },
         { name: 'Figma', icon: SiFigma, accent: 'text-cyan-400', ring: 'ring-cyan-400/20' },
+        { name: 'Docker', icon: SiDocker, accent: 'text-blue-600', ring: 'ring-blue-600/20' },
     ]
     
     const currentlyLearning =[
-        { name: 'Kotlin', icon: SiKotlin, accent: 'text-red-500', ring: 'ring-red-500/20' },
-        { name: 'Docker', icon: SiDocker, accent: 'text-blue-600', ring: 'ring-blue-600/20' },
         { name: 'Firebase', icon: SiFirebase, accent: 'text-yellow-500', ring: 'ring-yellow-500/20' },
     ]
 
