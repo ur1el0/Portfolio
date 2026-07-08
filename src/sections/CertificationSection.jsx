@@ -10,6 +10,7 @@ import courseraOS from '../assets/certifications/Coursera-os-cert.pdf'
 import courseraPostgres from '../assets/certifications/Coursera-postgres-cert.pdf'
 import webDevCert from '../assets/certifications/WebDevelopment-cert-.pdf'
 import courseraFlutterDart from '../assets/certifications/Coursera-flutter&dart-cert.pdf'
+import az900cert from '../assets/certifications/az900-cert.pdf'
 
 export const CertificationSection = () => 
 {
@@ -24,6 +25,7 @@ export const CertificationSection = () =>
         { title: 'Operating System Virtualization ', issuer: 'Coursera (Illinois Institute of Technology)', date: '2025', fileHref: courseraOS },
         { title: 'Database Design and Basic SQL in PostgreSQL', issuer: 'Coursera (University of Michigan)', date: '2025', fileHref: courseraPostgres },
         { title: 'Flutter and Dart: Developing iOS, Android, and Mobile Apps', issuer: 'Coursera (Coursera)', date: '2025', fileHref: courseraFlutterDart },
+        { title: 'Microsoft Azure Fundamentals AZ-900', issuer: 'Microsoft', date: '2026', fileHref: az900cert},    
     ]
 
     return (
