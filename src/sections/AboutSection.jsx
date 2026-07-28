@@ -1,4 +1,4 @@
-import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt, SiDart, SiFlutter } from 'react-icons/si'
+import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt, SiDart, SiFlutter, SiAndroidstudio } from 'react-icons/si'
 import { TbBrandCpp } from "react-icons/tb";
 import { FaC, FaJava, FaBootstrap } from "react-icons/fa6";
 
@@ -33,6 +33,7 @@ export const AboutSection = () => {
         { name: 'PostgreSQL', icon: SiPostgresql, accent: 'text-blue-700', ring: 'ring-blue-700/20' },
         { name: 'Figma', icon: SiFigma, accent: 'text-cyan-400', ring: 'ring-cyan-400/20' },
         { name: 'Docker', icon: SiDocker, accent: 'text-blue-600', ring: 'ring-blue-600/20' },
+        { name: 'Android Studio', icon: SiAndroidstudio, accent: 'text-emerald-500', ring: 'ring-emerald-500/20' },
     ]
     
     const currentlyLearning =[
