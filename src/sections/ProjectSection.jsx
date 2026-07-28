@@ -1,7 +1,8 @@
 import ProjectCard from '../components/ui/ProjectCard'
 import paldo from '../assets/projects/paldo.png'
-import lockad from '../assets/projects/lockad.png'
+import lockad3 from '../assets/projects/lockad3.png'
 import nsync from '../assets/projects/nsync.png'
+import comImg from '../assets/projects/com.png'
 
 export const ProjectSection = () =>
 {
@@ -13,16 +14,22 @@ export const ProjectSection = () =>
             onViewImage: () => window.open(paldo, '_blank'),
         },
         {
-            title: 'Lock-Ad-v2',
-            description: 'A basic navigation web application for finding routes for commuters. It is not a real-time navigation app and is only intended for demonstration purposes and will be further developed in the near future.',
-            githubHref: 'https://github.com/ur1el0/Lock-Ad-v2.git',
-            onViewImage: () => window.open(lockad, '_blank'),
+            title: 'Lock-Ad-v3',
+            description: 'A pedestrian routing platform that overlays walking paths with real-time weather risks, safety signals, and crowd-sourced incident reports. (Work in Progress)',
+            githubHref: 'https://github.com/ur1el0/Lock-Ad-v3.git',
+            onViewImage: () => window.open(lockad3, '_blank'),
         },
         {
             title: 'NSync',
             description: 'A gamified personal knowledge and memory app built with a Django backend and Kotlin Android app. It helps users capture notes, create review cards, complete quiz-style sessions, and track mastery with XP, levels, streaks, and accuracy.',
             githubHref: 'https://github.com/ur1el0/NSync.git',
             onViewImage: () => window.open(nsync, '_blank'),
+        },
+        {
+            title: 'Com',
+            description: 'A student productivity web application and dashboard tracker built with React and Supabase, featuring assignment tracking, notes, calendar, and AI-enabled study tools. (Work in Progress)',
+            githubHref: 'https://github.com/ur1el0/Com.git',
+            onViewImage: () => window.open(comImg, '_blank'),
         },
     ]
 
