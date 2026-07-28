@@ -35,7 +35,7 @@ export const ProjectSection = () =>
             description: 'A student productivity web application and dashboard tracker built with React and Supabase, featuring assignment tracking, notes, calendar, and AI-enabled study tools. (Work in Progress)',
             githubHref: 'https://github.com/ur1el0/Com.git',
             onViewImage: null,
-            techStack: ['React', 'Vite', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
+            techStack: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
             year: '2026',
         },
     ]
