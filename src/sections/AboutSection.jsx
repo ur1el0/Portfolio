@@ -1,4 +1,4 @@
-import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt, SiDart, SiFlutter, SiAndroidstudio, SiSupabase, SiTypescript } from 'react-icons/si'
+import { SiDjango, SiDotnet, SiNodedotjs, SiReact, SiTailwindcss, SiPython, SiJavascript, SiGit, SiDocker, SiPostgresql, SiFigma, SiKotlin, SiFirebase, SiMongodb, SiQt, SiDart, SiFlutter, SiAndroidstudio, SiSupabase, SiTypescript, SiSwift } from 'react-icons/si'
 import { TbBrandCpp } from "react-icons/tb";
 import { FaC, FaJava, FaBootstrap } from "react-icons/fa6";
 
@@ -40,6 +40,7 @@ export const AboutSection = () => {
         { name: 'Firebase', icon: SiFirebase, accent: 'text-yellow-500', ring: 'ring-yellow-500/20' },
         { name: 'Supabase', icon: SiSupabase, accent: 'text-emerald-500', ring: 'ring-emerald-500/20' },
         { name: 'TypeScript', icon: SiTypescript, accent: 'text-blue-500', ring: 'ring-blue-500/20' },
+        { name: 'Swift', icon: SiSwift, accent: 'text-orange-500', ring: 'ring-orange-500/20' },
     ]
 
     const TechItem = ({ name, icon: Icon, accent, ring }) => (
