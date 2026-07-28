@@ -64,7 +64,7 @@ export const AboutSection = () => {
                         I'm Roosc Zaño, a 4th year IT student who aspires to be a full-stack web and mobile developer.
                     </p>
                     <p className="mt-8 mb-4 text-xl font-semibold leading-relaxed text-[var(--text)]">
-                        With a background in Information Technology that specializes in web and mobile development, I have experience in various programming languages and frameworks, including Node.js, ASP.NET Core, React, and Django. I am now learning mobile development using Kotlin and will use Swift in the next following months.  
+                        With a background in Information Technology specializing in web and mobile development, I have experience in various programming languages and frameworks, including Node.js, ASP.NET Core, React, Kotlin, and Django. I am currently learning TypeScript, Supabase, Firebase, and Swift to further expand my full-stack development capabilities.
                     </p>
                 </div>
 
